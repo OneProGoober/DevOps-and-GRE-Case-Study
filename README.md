@@ -23,10 +23,16 @@ $ nextbus.py “METRO Blue Line” “Target Field Station Platform 1” “sout
 # External libraries:
 the libraries/imports used are as follows:
   import java.io.*;
+  
   import java.net.HttpURLConnection;
+  
   import java.net.URL;
+  
   import java.util.Date;
+  
   import com.google.gson.*;
+  
+  
 # Gson details  
 (gson is a Java library made by Google that converts java objects into JSON representation)
 Gson Download https://maven-badges.herokuapp.com/maven-central/com.google.code.gson/gson
