@@ -48,6 +48,6 @@ Gson Download https://maven-badges.herokuapp.com/maven-central/com.google.code.g
 Gson API: Javadocs for the current Gson release http://www.javadoc.io/doc/com.google.code.gson/gson
 
 # Build Process
-use $javac NextBus.java to compile the program (assuming java is up properly on your system to be run in a terminal (i.e. set as an environment variable))
+use $javac NextBus.java to compile the program
 
 then use $java NextBus "BUS ROUTE" "BUS STOP NAME" "DIRECTION"
