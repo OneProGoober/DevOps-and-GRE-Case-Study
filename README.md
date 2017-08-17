@@ -1,6 +1,6 @@
 # DevOps-and-GRE-Case-Study
 
-Description:
+# Description:
 In a language of your choice, write a program which will tell you how long it is until
 the next bus on “BUS ROUTE” leaving from “BUS STOP NAME” going “DIRECTION”
 using the api defined at http://svc.metrotransit.org/
@@ -20,13 +20,17 @@ Airport:
 $ nextbus.py “METRO Blue Line” “Target Field Station Platform 1” “south”
 8 Minutes
 
-Build Process and external libraries:
+# External libraries:
 the libraries/imports used are as follows:
   import java.io.*;
   import java.net.HttpURLConnection;
   import java.net.URL;
   import java.util.Date;
   import com.google.gson.*;
+# Gson details  
 (gson is a Java library made by Google that converts java objects into JSON representation)
 Gson Download https://maven-badges.herokuapp.com/maven-central/com.google.code.gson/gson
 Gson API: Javadocs for the current Gson release http://www.javadoc.io/doc/com.google.code.gson/gson
+# Build Process
+use $javac NextBus.java to compile the program (assuming java is up properly on your system to be run in a terminal (i.e. set as an environment variable))
+then use $java NextBus "BUS ROUTE" "BUS STOP NAME" "DIRECTION"
