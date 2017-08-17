@@ -43,7 +43,9 @@ the libraries/imports used are as follows:
 # Gson details  
 (gson is a Java library made by Google that converts java objects into JSON representation)
 
-Gson Download https://maven-badges.herokuapp.com/maven-central/com.google.code.gson/gson
+Gson Download(s):
+https://maven-badges.herokuapp.com/maven-central/com.google.code.gson/gson
+https://mvnrepository.com/artifact/com.google.code.gson/gson/2.8.1
 
 Gson API: Javadocs for the current Gson release http://www.javadoc.io/doc/com.google.code.gson/gson
 
